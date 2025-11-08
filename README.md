@@ -65,6 +65,12 @@ Jellyfin Web is the frontend used for most of the clients available for end user
    npm start
    ```
 
+   To run the dev server on a custom port, set the `PORT` environment variable:
+
+   ```sh
+   PORT=39050 npm start
+   ```
+
 4. Build the client with sourcemaps available.
 
    ```sh
